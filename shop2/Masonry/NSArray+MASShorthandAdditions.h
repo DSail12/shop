@@ -3,14 +3,38 @@
 //  shop2
 //
 //  Created by Eugene Zvyagin on 10.12.2023.
-//
+// 
 
-#import <Foundation/Foundation.h>
+#import "NSArray+MASAdditions.h"
 
-NS_ASSUME_NONNULL_BEGIN
+#ifdef MAS_SHORTHAND
 
-@interface NSArray_MASShorthandAdditions : NSObject
+/**
+ *    Shorthand array additions without the 'mas_' prefixes,
+ *  only enabled if MAS_SHORTHAND is defined
+ */
+@interface NSArray (MASShorthandAdditions)
+
+- (NSArray *)makeConstraints:(void(^)(MASConstraintMaker *make))block;
+- (NSArray *)updateConstraints:(void(^)(MASConstraintMaker *make))block;
+- (NSArray *)remakeConstraints:(void(^)(MASConstraintMaker *make))block;
 
 @end
 
-NS_ASSUME_NONNULL_END
+@implementation NSArray (MASShorthandAdditions)
+
+- (NSArray *)makeConstraints:(void(^)(MASConstraintMaker *))block {
+    return [self mas_makeConstraints:block];
+}
+
+- (NSArray *)updateConstraints:(void(^)(MASConstraintMaker *))block {
+    return [self mas_updateConstraints:block];
+}
+
+- (NSArray *)remakeConstraints:(void(^)(MASConstraintMaker *))block {
+    return [self mas_remakeConstraints:block];
+}
+
+@end
+
+#endif

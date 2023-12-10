@@ -5,12 +5,44 @@
 //  Created by Eugene Zvyagin on 10.12.2023.
 //
 
-#import <Foundation/Foundation.h>
+#import "MASUtilities.h"
+#import "MASConstraintMaker.h"
+#import "MASViewAttribute.h"
 
-NS_ASSUME_NONNULL_BEGIN
+@interface NSArray (MASAdditions)
 
-@interface NSArray_MASAdditions : NSObject
+/**
+ *  Creates a MASConstraintMaker with each view in the callee.
+ *  Any constraints defined are added to the view or the appropriate superview once the block has finished executing on each view
+ *
+ *  @param block scope within which you can build up the constraints which you wish to apply to each view.
+ *
+ *  @return Array of created MASConstraints
+ */
+- (NSArray *)mas_makeConstraints:(void(^)(MASConstraintMaker *make))block;
+
+
+/**
+ *  Creates a MASConstraintMaker with each view in the callee.
+ *  Any constraints defined are added to each view or the appropriate superview once the block has finished executing on each view.
+ *  If an existing constraint exists then it will be updated instead.
+ *
+ *  @param block scope within which you can build up the constraints which you wish to apply to each view.
+ *
+ *  @return Array of created/updated MASConstraints
+ */
+- (NSArray *)mas_updateConstraints:(void(^)(MASConstraintMaker *make))block;
+
+/**
+ *  Creates a MASConstraintMaker with each view in the callee.
+ *  Any constraints defined are added to each view or the appropriate superview once the block has finished executing on each view.
+ *  All constraints previously installed for the views will be removed.
+ *
+ *  @param block scope within which you can build up the constraints which you wish to apply to each view.
+ *
+ *  @return Array of created/updated MASConstraints
+ */
+- (NSArray *)mas_remakeConstraints:(void(^)(MASConstraintMaker *make))block;
 
 @end
-
-NS_ASSUME_NONNULL_END
+ 

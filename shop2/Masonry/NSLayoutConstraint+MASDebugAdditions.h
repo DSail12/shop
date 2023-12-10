@@ -3,14 +3,13 @@
 //  shop2
 //
 //  Created by Eugene Zvyagin on 10.12.2023.
-//
+// 
 
-#import <Foundation/Foundation.h>
+#import "MASUtilities.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface NSLayoutConstraint_MASDebugAdditions : NSObject
+/**
+ *    makes debug and log output of NSLayoutConstraints more readable
+ */
+@interface NSLayoutConstraint (MASDebugAdditions)
 
 @end
-
-NS_ASSUME_NONNULL_END

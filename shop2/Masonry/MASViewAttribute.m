@@ -3,7 +3,7 @@
 //  shop2
 //
 //  Created by Eugene Zvyagin on 10.12.2023.
-//
+// 
 
 #import "MASViewAttribute.h"
 
@@ -31,8 +31,8 @@
     }
     return [super isEqual:viewAttribute];
 }
-(NSUInteger)hash {
-   return MAS_NSUINTROTATE([self.view hash], MAS_NSUINT_BIT / 2) ^ self.layoutAttribute;
+- (NSUInteger)hash {
+    return MAS_NSUINTROTATE([self.view hash], MAS_NSUINT_BIT / 2) ^ self.layoutAttribute;
 }
 
 @end

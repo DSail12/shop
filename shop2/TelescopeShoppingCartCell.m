@@ -3,7 +3,7 @@
 //  shop2
 //
 //  Created by Eugene Zvyagin on 10.12.2023.
-//
+// 
 
 #import "TelescopeShoppingCartCell.h"
 #import "TelescopeShoppingCart.h"
@@ -21,6 +21,7 @@
 @implementation TelescopeShoppingCartCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     // Код инициализации
     self.itemNumberText.delegate = self;
     // Добавть уведомление
@@ -84,11 +85,11 @@
     _item = item;
         self.itemNumber.text = [NSString stringWithFormat:@"%ld",item.number];
         self.itemTitle.text = item.itemName;
-        //根据item初始化selected
+        //Инициализировать выбранное
         self.itemSelect.selected = self.item.canDelete;
     }
 
-    #pragma mark - 按钮事件
+    #pragma mark - событие кнопки
 
     - (IBAction)selectBtnClick:(id)sender {
         
@@ -102,7 +103,7 @@
     }
 
     /**
-     * 增加商品数量
+     * Увеличить количество товаров
      */
 - (IBAction)addItem:(id)sender {
     NSInteger num;
@@ -118,7 +119,7 @@
    }
 
    /**
-    * 减少商品数量
+    * Уменьшить количество товаров
     */
    - (IBAction)removeItem:(id)sender {
        NSInteger num;

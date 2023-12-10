@@ -50,7 +50,7 @@
    - (id)copyWithZone:(NSZone *)zone{
        return self;
    }
-
+ 
    + (instancetype)allocWithZone:(struct _NSZone *)zone {
        static id instance;
        static dispatch_once_t onceToken;

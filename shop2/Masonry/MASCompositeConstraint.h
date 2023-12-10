@@ -4,13 +4,22 @@
 //
 //  Created by Eugene Zvyagin on 10.12.2023.
 //
+ 
+#import "MASConstraint.h"
+#import "MASUtilities.h"
 
-#import <Foundation/Foundation.h>
+/**
+ *    A group of MASConstraint objects
+ */
+@interface MASCompositeConstraint : MASConstraint
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface MASCompositeConstraint : NSObject
+/**
+ *    Creates a composite with a predefined array of children
+ *
+ *    @param    children    child MASConstraints
+ *
+ *    @return    a composite constraint
+ */
+- (id)initWithChildren:(NSArray *)children;
 
 @end
-
-NS_ASSUME_NONNULL_END

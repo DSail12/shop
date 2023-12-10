@@ -14,6 +14,24 @@
 		7E3958562B25F994000A91E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958552B25F994000A91E6 /* Assets.xcassets */; };
 		7E3958592B25F994000A91E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958572B25F994000A91E6 /* LaunchScreen.storyboard */; };
 		7E39585C2B25F994000A91E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39585B2B25F994000A91E6 /* main.m */; };
+		7E3958632B25F9F4000A91E6 /* Podfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958622B25F9F4000A91E6 /* Podfile.txt */; };
+		7E3958652B25FA3A000A91E6 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958642B25FA3A000A91E6 /* Podfile.lock */; };
+		7E3958672B25FA75000A91E6 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958662B25FA75000A91E6 /* Contents.json */; };
+		7E39586A2B25FC91000A91E6 /* TelescopeShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958692B25FC91000A91E6 /* TelescopeShoppingCart.m */; };
+		7E39586D2B25FE31000A91E6 /* TelescopeShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39586C2B25FE31000A91E6 /* TelescopeShoppingCartCell.m */; };
+		7E3958712B260289000A91E6 /* TelescopeShoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3958702B260289000A91E6 /* TelescopeShoppingCartCell.xib */; };
+		7E3958742B2602B1000A91E6 /* TelescopeShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958732B2602B1000A91E6 /* TelescopeShoppingCartViewController.m */; };
+		7E3958772B260892000A91E6 /* TelescopeShoppingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958762B260892000A91E6 /* TelescopeShoppingCell.m */; };
+		7E39587A2B260979000A91E6 /* TelescopeShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958792B260979000A91E6 /* TelescopeShoppingItem.m */; };
+		7E39587D2B260F13000A91E6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39587C2B260F13000A91E6 /* MASCompositeConstraint.m */; };
+		7E3958822B261048000A91E6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958812B261048000A91E6 /* MASConstraint.m */; };
+		7E3958852B26119F000A91E6 /* MASConstraintMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958842B26119F000A91E6 /* MASConstraintMarker.m */; };
+		7E3958882B2612BA000A91E6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958872B2612BA000A91E6 /* MASLayoutConstraint.m */; };
+		7E39588C2B26139D000A91E6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39588B2B26139D000A91E6 /* MASViewAttribute.m */; };
+		7E39588F2B261567000A91E6 /* MasViewConstaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39588E2B261567000A91E6 /* MasViewConstaint.m */; };
+		7E3958932B261681000A91E6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958922B261681000A91E6 /* NSArray+MASAdditions.m */; };
+		7E3958992B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3958982B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7E39589C2B261896000A91E6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39589B2B261896000A91E6 /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +47,43 @@
 		7E3958582B25F994000A91E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E39585A2B25F994000A91E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E39585B2B25F994000A91E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E3958622B25F9F4000A91E6 /* Podfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile.txt; path = ../../../Downloads/Podfile.txt; sourceTree = "<group>"; };
+		7E3958642B25FA3A000A91E6 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile.lock; path = ../../../Downloads/Podfile.lock; sourceTree = "<group>"; };
+		7E3958662B25FA75000A91E6 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = ../../../Downloads/Contents.json; sourceTree = "<group>"; };
+		7E3958682B25FC91000A91E6 /* TelescopeShoppingCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelescopeShoppingCart.h; sourceTree = "<group>"; };
+		7E3958692B25FC91000A91E6 /* TelescopeShoppingCart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelescopeShoppingCart.m; sourceTree = "<group>"; };
+		7E39586B2B25FE31000A91E6 /* TelescopeShoppingCartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelescopeShoppingCartCell.h; sourceTree = "<group>"; };
+		7E39586C2B25FE31000A91E6 /* TelescopeShoppingCartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelescopeShoppingCartCell.m; sourceTree = "<group>"; };
+		7E3958702B260289000A91E6 /* TelescopeShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TelescopeShoppingCartCell.xib; path = ../../../Downloads/TelescopeShoppingCartCell.xib; sourceTree = "<group>"; };
+		7E3958722B2602B1000A91E6 /* TelescopeShoppingCartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelescopeShoppingCartViewController.h; sourceTree = "<group>"; };
+		7E3958732B2602B1000A91E6 /* TelescopeShoppingCartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelescopeShoppingCartViewController.m; sourceTree = "<group>"; };
+		7E3958752B260892000A91E6 /* TelescopeShoppingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelescopeShoppingCell.h; sourceTree = "<group>"; };
+		7E3958762B260892000A91E6 /* TelescopeShoppingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelescopeShoppingCell.m; sourceTree = "<group>"; };
+		7E3958782B260979000A91E6 /* TelescopeShoppingItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelescopeShoppingItem.h; sourceTree = "<group>"; };
+		7E3958792B260979000A91E6 /* TelescopeShoppingItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelescopeShoppingItem.m; sourceTree = "<group>"; };
+		7E39587B2B260F13000A91E6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7E39587C2B260F13000A91E6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7E39587F2B26100A000A91E6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7E3958802B261048000A91E6 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		7E3958812B261048000A91E6 /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		7E3958832B26119F000A91E6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		7E3958842B26119F000A91E6 /* MASConstraintMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMarker.m; sourceTree = "<group>"; };
+		7E3958862B2612BA000A91E6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7E3958872B2612BA000A91E6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7E3958892B261322000A91E6 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		7E39588A2B26139D000A91E6 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		7E39588B2B26139D000A91E6 /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		7E39588D2B261567000A91E6 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		7E39588E2B261567000A91E6 /* MasViewConstaint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasViewConstaint.m; sourceTree = "<group>"; };
+		7E3958902B261649000A91E6 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		7E3958912B261681000A91E6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7E3958922B261681000A91E6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		7E3958942B2617AA000A91E6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7E3958972B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7E3958982B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7E39589A2B261896000A91E6 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		7E39589B2B261896000A91E6 /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		7E39589D2B261944000A91E6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +118,62 @@
 			children = (
 				7E3958492B25F993000A91E6 /* AppDelegate.h */,
 				7E39584A2B25F993000A91E6 /* AppDelegate.m */,
+				7E3958782B260979000A91E6 /* TelescopeShoppingItem.h */,
+				7E3958792B260979000A91E6 /* TelescopeShoppingItem.m */,
+				7E3958752B260892000A91E6 /* TelescopeShoppingCell.h */,
+				7E3958762B260892000A91E6 /* TelescopeShoppingCell.m */,
+				7E3958722B2602B1000A91E6 /* TelescopeShoppingCartViewController.h */,
+				7E3958732B2602B1000A91E6 /* TelescopeShoppingCartViewController.m */,
+				7E39586B2B25FE31000A91E6 /* TelescopeShoppingCartCell.h */,
+				7E39586C2B25FE31000A91E6 /* TelescopeShoppingCartCell.m */,
+				7E3958682B25FC91000A91E6 /* TelescopeShoppingCart.h */,
+				7E3958692B25FC91000A91E6 /* TelescopeShoppingCart.m */,
+				7E3958702B260289000A91E6 /* TelescopeShoppingCartCell.xib */,
 				7E39584C2B25F993000A91E6 /* SceneDelegate.h */,
 				7E39584D2B25F993000A91E6 /* SceneDelegate.m */,
 				7E39584F2B25F993000A91E6 /* ViewController.h */,
 				7E3958502B25F993000A91E6 /* ViewController.m */,
 				7E3958522B25F993000A91E6 /* Main.storyboard */,
+				7E39587E2B260F21000A91E6 /* Masonry */,
 				7E3958552B25F994000A91E6 /* Assets.xcassets */,
+				7E3958662B25FA75000A91E6 /* Contents.json */,
 				7E3958572B25F994000A91E6 /* LaunchScreen.storyboard */,
 				7E39585A2B25F994000A91E6 /* Info.plist */,
 				7E39585B2B25F994000A91E6 /* main.m */,
+				7E3958622B25F9F4000A91E6 /* Podfile.txt */,
+				7E3958642B25FA3A000A91E6 /* Podfile.lock */,
 			);
 			path = shop2;
+			sourceTree = "<group>";
+		};
+		7E39587E2B260F21000A91E6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7E39587B2B260F13000A91E6 /* MASCompositeConstraint.h */,
+				7E39587C2B260F13000A91E6 /* MASCompositeConstraint.m */,
+				7E3958802B261048000A91E6 /* MASConstraint.h */,
+				7E3958812B261048000A91E6 /* MASConstraint.m */,
+				7E3958862B2612BA000A91E6 /* MASLayoutConstraint.h */,
+				7E3958892B261322000A91E6 /* MASUtilities.h */,
+				7E3958912B261681000A91E6 /* NSArray+MASAdditions.h */,
+				7E3958922B261681000A91E6 /* NSArray+MASAdditions.m */,
+				7E39588A2B26139D000A91E6 /* MASViewAttribute.h */,
+				7E3958972B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				7E3958982B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7E3958902B261649000A91E6 /* Masonry.h */,
+				7E39589D2B261944000A91E6 /* View+MASShorthandAdditions.h */,
+				7E39588B2B26139D000A91E6 /* MASViewAttribute.m */,
+				7E39589A2B261896000A91E6 /* View+MASAdditions.h */,
+				7E39589B2B261896000A91E6 /* View+MASAdditions.m */,
+				7E3958942B2617AA000A91E6 /* NSArray+MASShorthandAdditions.h */,
+				7E39588D2B261567000A91E6 /* MASViewConstraint.h */,
+				7E39588E2B261567000A91E6 /* MasViewConstaint.m */,
+				7E3958872B2612BA000A91E6 /* MASLayoutConstraint.m */,
+				7E3958832B26119F000A91E6 /* MASConstraintMaker.h */,
+				7E3958842B26119F000A91E6 /* MASConstraintMarker.m */,
+				7E39587F2B26100A000A91E6 /* MASConstraint+Private.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +233,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3958632B25F9F4000A91E6 /* Podfile.txt in Resources */,
+				7E3958712B260289000A91E6 /* TelescopeShoppingCartCell.xib in Resources */,
 				7E3958592B25F994000A91E6 /* LaunchScreen.storyboard in Resources */,
+				7E3958652B25FA3A000A91E6 /* Podfile.lock in Resources */,
 				7E3958562B25F994000A91E6 /* Assets.xcassets in Resources */,
 				7E3958542B25F993000A91E6 /* Main.storyboard in Resources */,
+				7E3958672B25FA75000A91E6 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +250,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E39586D2B25FE31000A91E6 /* TelescopeShoppingCartCell.m in Sources */,
+				7E39587A2B260979000A91E6 /* TelescopeShoppingItem.m in Sources */,
+				7E3958852B26119F000A91E6 /* MASConstraintMarker.m in Sources */,
 				7E3958512B25F993000A91E6 /* ViewController.m in Sources */,
+				7E39586A2B25FC91000A91E6 /* TelescopeShoppingCart.m in Sources */,
+				7E39587D2B260F13000A91E6 /* MASCompositeConstraint.m in Sources */,
+				7E3958882B2612BA000A91E6 /* MASLayoutConstraint.m in Sources */,
+				7E3958822B261048000A91E6 /* MASConstraint.m in Sources */,
+				7E39589C2B261896000A91E6 /* View+MASAdditions.m in Sources */,
 				7E39584B2B25F993000A91E6 /* AppDelegate.m in Sources */,
 				7E39585C2B25F994000A91E6 /* main.m in Sources */,
+				7E39588F2B261567000A91E6 /* MasViewConstaint.m in Sources */,
+				7E39588C2B26139D000A91E6 /* MASViewAttribute.m in Sources */,
+				7E3958932B261681000A91E6 /* NSArray+MASAdditions.m in Sources */,
+				7E3958992B26180D000A91E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7E3958742B2602B1000A91E6 /* TelescopeShoppingCartViewController.m in Sources */,
+				7E3958772B260892000A91E6 /* TelescopeShoppingCell.m in Sources */,
 				7E39584E2B25F993000A91E6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +321,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -264,7 +382,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
